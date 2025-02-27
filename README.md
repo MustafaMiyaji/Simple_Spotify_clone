@@ -1,27 +1,41 @@
-# Simple Spotify Clone
+# Spotify Clone
 
-This project is a simple clone of the Spotify web application, built using HTML, CSS, and JavaScript. It provides a basic interface for playing a list of songs, mimicking some of the core functionalities of Spotify.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+This project is a simple clone of the Spotify web player interface, built using HTML, CSS, and JavaScript. It allows users to play a selection of songs by Travis Scott.
 
 ## Features
 
-- **Responsive Design:** The application is designed to be responsive and works on various screen sizes.
-- **Play/Pause Functionality:** Users can play and pause songs using the interface.
-- **Next/Previous Track:** Navigate through the playlist using next and previous buttons.
-- **Progress Bar:** Displays the current progress of the song being played.
-- **Dynamic Song List:** The song list is dynamically populated from a JavaScript array.
+- Play and pause songs
+- Navigate between songs using next and previous buttons
+- Display song information and cover art
+- Interactive progress bar to seek through the song
 
-## Installation
+## Project Structure
 
-To run this project locally, follow these steps:
+- `index.html`: The main HTML file that structures the web page.
+- `style.css`: Contains the styling for the web page.
+- `script.js`: Includes the JavaScript logic for playing songs and handling user interactions.
+- `songs/`: Directory containing the audio files.
+- `covers/`: Directory containing the cover images for the songs.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MustafaMiyaji/Simple_Spotify_clone.git
+## Setup
+
+1. Clone the repository to your local machine.
+2. Ensure you have a web server running or open the `index.html` file directly in your browser.
+3. Make sure the `songs` and `covers` directories are in the same directory as your HTML file.
+
+## Usage
+
+- Open `index.html` in a web browser.
+- Use the play button to start playing the first song.
+- Use the next and previous buttons to navigate through the playlist.
+- Click on individual song play buttons to play specific songs.
+- Adjust the progress bar to seek through the current song.
+
+## Dependencies
+
+- FontAwesome for icons: Included via CDN in the HTML file.
+
+## License
+
+This project is for educational purposes only and is not affiliated with Spotify.
+
